@@ -1,0 +1,16 @@
+{% for sample in samples %} 
+
+<h1>
+    {{ sample.email}}
+</h1>
+
+<br>
+<br>
+
+<div>
+    <ul>{{sample.username}}</ul>
+    <ul>{{sample.creation_date}}</ul>
+</div>
+<br>
+<br>
+{% endfor %}
