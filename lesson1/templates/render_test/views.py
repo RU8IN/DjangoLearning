@@ -1,3 +1,4 @@
+from django.views.generic import ListView
 from django.shortcuts import render
 import random
 from django.views.generic import View
